@@ -68,7 +68,7 @@ class MoviePage extends Component {
         <ul>
           {movies.map(el => (
             <li key={el.id}>
-              <Link to={`/show/${el.id}`}>{el.title}</Link>
+              <Link to={`/movies/${el.id}`}>{el.title}</Link>
             </li>
           ))}
         </ul>
